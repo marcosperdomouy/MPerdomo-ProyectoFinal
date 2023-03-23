@@ -4,7 +4,7 @@
   padding: 0; }
 
 body {
-  background: #AFCCE2;
+  background: #FFFFFF;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
@@ -34,12 +34,12 @@ header {
       background-color: #CD1515 }
 
 footer {
-  background-color: #CD1515;
+  background-color: #ff7b00;
   display: flex;
   justify-content: space-between;
   opacity: 0.6;
   height: 30px;
-  font-size: 15;
+  font-size: 15px;
   font-weight: 600;
   margin-top: auto; }
   footer p {
@@ -85,8 +85,8 @@ footer {
   align-items: center; }
   .main__inicio img {
     margin-top: 50px;
-    width: 700px;
-    height: 700px; }
+    width: 1800x;
+    height: 400px; }
 
 .card {
   background-color: rgba(255, 255, 255, 0.3); }
@@ -104,28 +104,28 @@ footer {
   font-weight: 550;
   font-family: "Kanit"; }
 
-.muestra__color {
+.NuestrosAutos__color {
   color: #4c38e3;
   text-align: center;
   font-size: 70px;
   font-style: oblique;
   margin-top: 60px; }
 
-.muestra {
+.NuestrosAutos {
   margin-top: 70px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   overflow: hidden; }
-  .muestra img {
+  .NuestrosAutos img {
     padding: 50px;
     height: 400px;
     width: 400px;
     border-radius: 100px;
     transition: 0.5s;
     object-fit: cover; }
-    .muestra img:hover {
+    .NuestrosAutos img:hover {
       scale: 1.2; }
 
 .procedimiento__titulo {
@@ -203,14 +203,14 @@ footer {
     margin-top: 10px;
     width: 300px;
     height: 157px; }
-  .muestra__color {
+  .NuestrosAutos__color {
     font-size: 35px; }
-  .muestra img {
+  .NuestrosAutos img {
     padding: 25px;
     height: 170px;
     width: 170px;
     border-radius: 50px; }
-    .muestra img:hover {
+    .NuestrosAutos img:hover {
       scale: 1.2; }
   .procedimiento__titulo {
     margin-top: 40px;
