@@ -1,0 +1,19 @@
+
+//General
+@import "./general/typography.scss";
+@import "./general/colors.scss";
+
+// Layout 
+@import "./layout/body.scss";
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
+
+// Paginas
+@import "./paginas/incio.scss";
+@import "./paginas/productos.scss";
+@import "./paginas/colores.scss";
+@import "./paginas/procedimiento.scss";
+@import "./paginas/contacto.scss";
+
+// Media-Query
+@import "./layout/media-query.scss"

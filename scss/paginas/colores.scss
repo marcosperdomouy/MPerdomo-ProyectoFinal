@@ -1,0 +1,26 @@
+.muestra__color{
+    color: $title-color-second;
+    text-align: center;
+    font-size: 70px;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.muestra{
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    img{
+        padding: 50px;
+        height: 400px;
+        width: 400px;
+        border-radius: 100px;
+        transition: 0.5s;
+        object-fit: cover;
+        &:hover{
+            scale: 1.2;
+        }
+    }
+}

@@ -1,0 +1,70 @@
+@media (max-width:576px){
+    .navbar-brand img{
+        width: 100px;
+        height: 80px;
+    }
+    #banner{
+        height: 100px;
+    }
+    .H1{
+        font-size: 50px;
+        font-weight: 600px;
+    }
+    .H2{
+        font-size: 25px;
+        font-weight: 650px;
+    }
+    .main__inicio{
+        img{
+            margin-top: 20px;
+            width: 300px;
+            height: 300px;
+        }
+        iframe{
+            margin-top: 10px;
+            width: 300px; 
+            height: 157px;
+        }  
+    }
+    .muestra__color{
+        font-size: 35px;
+    }
+    .muestra{
+        img{
+            padding: 25px;
+            height: 170px;
+            width: 170px;
+            border-radius: 50px;
+            &:hover{
+                scale:1.2;
+            }
+        }
+    }
+    .procedimiento__titulo{
+        margin-top: 40px;
+        font-size: 20px;
+    }
+    .procedimiento__pedido{
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .form__formulario{    
+        width: 250px;
+        margin-right: 70px;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .redes{
+        width: 375px;
+        iframe{
+            width:350px;
+            height:250px;
+        }
+    }    
+    footer{
+        height: 15px;
+        font-size: 10px;
+    }
+}

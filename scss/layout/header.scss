@@ -1,0 +1,29 @@
+header{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    .navbar-brand img{
+        width: 130px;
+        height: 100px;
+    }
+    .navbar-toggler:focus {
+        box-shadow: none !important;
+    }
+    .nav-link{
+        color: yellow !important;
+        font-size: 20px;
+        &:hover{
+            color: black !important;
+        }
+    }
+    .btn-outline-success{
+        color: yellow;
+        border-color: yellow;
+        &:hover{
+            color: black;
+            background-color: yellow;
+        }   
+    }
+}
